@@ -1,0 +1,28 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1, .banner p {
+  color: white;
+}
+
+.banner h1, .banner p .btn-cover {
+  margin: 0;
+}
+
+.btn-cover {
+  background-color: #1b6e74;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  padding: 10px 25px;
+  font-weight: bolder;
+  transition: 0.3s;
+  margin-left: -3px;
+
+}
+
+.btn-cover:hover {
+  background-color: #326882;
+}
